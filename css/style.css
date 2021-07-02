@@ -11,7 +11,7 @@ body{
     min-height: 100vh;
 }
 
-@media(max-width : 998px){
+@media (max-width : 998px){
     html{
         font-size: 55%;
     }
@@ -19,20 +19,15 @@ body{
 
 @media(max-width: 768px){
     html {
-        font-size: 45%;
+        font-size: 50%;
     }
 }
 
-.carousel-item img{
-    width: 100%;
-    height: 90vh;
-}
 
 header{
     width: 100%;
     height: 100vh;
     background-image: url(../images/backgroundimg.png);
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 
 }
@@ -46,7 +41,7 @@ header{
 }
 .mainheader .logo img{
     width: 250px;
-   padding-top: 50px;
+   padding-top: 30px;
 }
 .mainheader nav{
     width: 450px;
@@ -82,35 +77,39 @@ main{
 
 main .right-sec{
     padding-right: 90px;
-    padding-top: 20px;
-    height: 60vh;
+    padding-top: 60px;
+    
 }
 
-main .left-sec{
+main .middle-sec{
 padding-left: 100px ;
 }
 
-.left-sec h2{
+.middle-sec h2{
     font-size: 20px;
     text-transform: capitalize;
     font-weight: lighter;
     color: black;
     margin-top: 150px;
+    text-align: center;
 }
-.left-sec h1{
-    font-size: 60px;
+.middle-sec h1{
+    font-size: 45px;
     text-transform: capitalize;
     font-weight: 700;
     margin: 13px 0px;
     color: blue;
+    text-align: center;
 
 }
-.left-sec p{
+.middle-sec p{
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.left-sec button{
+.middle-sec button{
     padding: 15px 45px;
+    margin-left: 30%;
     text-align: center;
     font-size: 14px;
     color: #fff;
@@ -118,7 +117,7 @@ padding-left: 100px ;
     background-image: linear-gradient(to right,#649bff,#0070fa,#649bff) ;
     border-radius: 10px;
 }
-.left-sec a{
+.middle-sec a{
     color: #fff;
     text-decoration: none;
 }
