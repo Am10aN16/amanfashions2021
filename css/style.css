@@ -11,17 +11,20 @@ body{
     min-height: 100vh;
 }
 
-@media (max-width : 998px){
-    html{
-        font-size: 55%;
-    }
+@media screen and(max-width : 680px){
+  ul.mainheader :not(:nth-child(1)){
+      display: none;
+  }
+  ul.mainheader li.menubtn{
+      display: block;
+      float: right;
+  }
+
+  ul.mainheader.responsive{
+      position: relative;
+  }
 }
 
-@media(max-width: 768px){
-    html {
-        font-size: 50%;
-    }
-}
 
 
 header{
@@ -76,13 +79,14 @@ main{
 }
 
 main .right-sec{
-    padding-right: 90px;
+    padding-right: 60px;
     padding-top: 60px;
     
 }
 
 main .middle-sec{
-padding-left: 100px ;
+padding-left: 0;
+margin: auto;
 }
 
 .middle-sec h2{
